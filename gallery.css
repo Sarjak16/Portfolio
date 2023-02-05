@@ -1,0 +1,41 @@
+.gallery-container{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.gallery-container h1{
+    font-size: 2rem;
+}
+
+div.gallery{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #212121;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+div.card img{
+    width: auto;
+    height: 80%;
+    border-radius: 8px 8px 0 0;
+}
+
+div.card div.caption{
+    background: #fafafa;
+    opacity: 70%;
+    color: black;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0 0 8px 8px;
+}
