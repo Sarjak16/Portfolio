@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+    padding: 0;
+} 
+body{
+	max-width: 85%;
+	margin: 0 auto;
+    background-color: #eaeaea;
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a, a:link, a:visited{
+	color: #29465B;
+	text-decoration: none;
+}
+
+header{
+	padding-top: 20px;
+	display: flex; 
+	justify-content: space-between; 
+	border-bottom: 1px solid #111;
+	align-items: center;
+	background: #4BA659;
+	border-radius: 0.5rem;
+}
+
+.head>a{
+    color: black;
+    font-size: 30px;
+}
+.head-1{
+    font-size: 30px;
+}
+.head-1 ul {
+	list-style-type: none;
+	overflow: hidden;
+	display: flex;
+}
+  
+.head-1 ul li {
+padding: 0 12px;
+}
+  
+li a:hover {
+background-color: #111;
+}
+
+
+.about{
+	width: 100%;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.about img{
+	width: 25%;
+}
+
+.about-text{
+	width: 65%;
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: black;
+}
+
+span{
+	color: #f9004d;
+}
+
+.about-text h2{
+	font-size: 5rem;
+	text-transform: capitalize;
+}
+.about-text h5{
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #111;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+	line-height: 1.75rem;
+}
+
+.about-text div.button-group{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+button{
+	cursor: pointer;
+	border-width: 2px 0 0 3px;
+	border-style: inset;
+	border-color: #111;
+	background: transparent;
+	color: #111;
+}
+
+button:hover{
+	border-width: 0 3px 2px 0;
+}
+
+section.contact-wrapper{
+	width: 100%;
+	padding-top: 15vh;
+	display: flex;
+	justify-content: center;
+}
+
+
+h5{
+	color: green;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	border-bottom: 1px solid red;
+}
+
+.contact-details{
+	width: auto;
+	padding: 20px 35px;
+	opacity: 70%;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin: 15px;
+	overflow: hidden;
+	text-align: center;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+}
+.contact .contact-title{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+}
+
+.contact-content{
+	display: flex;
+}
+
+
+.contact-content-col-1, .contact-content-col-2{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.contact-content-col-1{
+	align-items: flex-end;
+}
+
+.contact-content-col-2 span{
+	align-items: flex-start;
+	color: #111;
+}
+
+
+footer{
+    padding:20px;
+    color:#111;
+    text-align: center;
+    border-top: 1px solid red;
+  }
+
+  .info{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.info-1{
+  border-right: 2px solid black;
+}
